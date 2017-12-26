@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Basic example showing distributed tracing across Spring Boot apps
 This is an example app where two Spring Boot (Java) services collaborate on an http request. Notably, timing of these requests are recorded into [Zipkin](http://zipkin.io/), a distributed tracing system. This allows you to see the how long the whole operation took, as well how much time was spent in each service.
 
@@ -42,3 +43,7 @@ java -jar zipkin.jar
   * `spring.sleuth.sampler.percentage=1.0`
 * The below pattern adds trace and span identifiers into log output
   * `logging.pattern.level=%d{ABSOLUTE} [%X{X-B3-TraceId}/%X{X-B3-SpanId}] %-5p [%t] %C{2} - %m%n`
+=======
+# zipkin-demo-example
+Demo project for showing latency in micro-services using zipkin
+>>>>>>> 9c4083668caebbaba1506d9a4e1f1367e9fcdc9d
